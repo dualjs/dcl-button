@@ -1,0 +1,45 @@
+{
+  "name": "dcl-button",
+  "description": "DCL Button widget",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dualjs/dcl-button",
+  "author": {
+    "name": "Mark",
+    "email": "me@jsman.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dualjs/dcl-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dualjs/dcl-button/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dualjs/dcl-button/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/dcl-button.js",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "dual": "*",
+    "dcl-widget": "*",
+    "dcl-bootstrap": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1",
+    "grunt-dcl-resources": "0.0.1",
+    "browserify": "~2.34.3",
+    "grunt-browserify": "~1.2.9",
+    "grunt-contrib-less": "~0.7.0"
+  },
+  "keywords": []
+}
