@@ -63,5 +63,14 @@ exports['button'] = {
         test.equal(b.stringify(), '<button class="btn btn-default">hello</button>');
 
         test.done();
+    },
+    'name': function(test) {
+        test.expect(1);
+
+        var b = new Button();
+        b.setName('hello');
+        test.equal(b.stringify(), '<button class="btn btn-default" name="hello"></button>');
+
+        test.done();
     }
 };
