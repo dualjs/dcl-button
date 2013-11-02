@@ -1,7 +1,7 @@
 {
   "name": "dcl-button",
   "description": "DCL Button widget",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/dualjs/dcl-button",
   "author": {
     "name": "Mark",
@@ -35,8 +35,8 @@
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.4.0",
     "grunt": "~0.4.1",
-    "grunt-dcl-resources": "0.0.1",
-    "browserify": "~2.34.3",
+    "grunt-dcl-resources": "0.0.2",
+    "browserify": "2.*",
     "grunt-browserify": "~1.2.9",
     "grunt-contrib-less": "~0.7.0"
   },
