@@ -22,7 +22,7 @@
   ],
   "main": "lib/dcl-button.js",
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "./node_modules/.bin/grunt nodeunit"
   },
   "dependencies": {
     "dual": "*",
@@ -35,6 +35,7 @@
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.4.0",
     "grunt": "~0.4.1",
+    "grunt-cli": "0.1.x",
     "grunt-dcl-resources": "0.0.2",
     "browserify": "2.x",
     "grunt-browserify": "~1.2.9",
