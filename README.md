@@ -1,5 +1,7 @@
 # dcl-button
 
+[![Build Status](https://travis-ci.org/dualjs/dcl-button.png?branch=master)](https://travis-ci.org/dualjs/dcl-button)
+
 DCL Button widget. It is a Dual wrapper of bootstrap button.
 
 It imports Twitter Bootstrap styles from `'dcl-bootstrap'` module automatically.
